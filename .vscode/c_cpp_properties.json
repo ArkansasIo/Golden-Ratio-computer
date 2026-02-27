@@ -1,0 +1,22 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Win32",
+      "intelliSenseMode": "windows-gcc-x64",
+      "compilerPath": "D:/llvm-mingw-20260224-msvcrt-i686/llvm-mingw-20260224-msvcrt-i686/bin/g++.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/apps",
+        "${workspaceFolder}/wolfman_alpha/wolfman_alpha/include",
+        "${workspaceFolder}/wolfman_alpha/wolfman_alpha/src",
+        "${workspaceFolder}/wolfman_alpha/wolfman_alpha/apps"
+      ],
+      "compileCommands": "${workspaceFolder}/build-mingw/compile_commands.json",
+      "defines": []
+    }
+  ]
+}

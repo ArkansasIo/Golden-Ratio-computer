@@ -1,0 +1,50 @@
+[
+{
+  "directory": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw",
+  "command": "D:\\llvm-mingw-20260224-msvcrt-i686\\llvm-mingw-20260224-msvcrt-i686\\bin\\g++.exe  @CMakeFiles/wolfman_alpha.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\wolfman_alpha.dir\\src\\wa_audio.cpp.obj -c \"D:\\New folder (3)\\wolfman_alpha\\wolfman_alpha\\src\\wa_audio.cpp\"",
+  "file": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_audio.cpp",
+  "output": "CMakeFiles/wolfman_alpha.dir/src/wa_audio.cpp.obj"
+},
+{
+  "directory": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw",
+  "command": "D:\\llvm-mingw-20260224-msvcrt-i686\\llvm-mingw-20260224-msvcrt-i686\\bin\\g++.exe  @CMakeFiles/wolfman_alpha.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\wolfman_alpha.dir\\src\\wa_io.cpp.obj -c \"D:\\New folder (3)\\wolfman_alpha\\wolfman_alpha\\src\\wa_io.cpp\"",
+  "file": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_io.cpp",
+  "output": "CMakeFiles/wolfman_alpha.dir/src/wa_io.cpp.obj"
+},
+{
+  "directory": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw",
+  "command": "D:\\llvm-mingw-20260224-msvcrt-i686\\llvm-mingw-20260224-msvcrt-i686\\bin\\g++.exe  @CMakeFiles/wolfman_alpha.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\wolfman_alpha.dir\\src\\wa_cpu.cpp.obj -c \"D:\\New folder (3)\\wolfman_alpha\\wolfman_alpha\\src\\wa_cpu.cpp\"",
+  "file": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_cpu.cpp",
+  "output": "CMakeFiles/wolfman_alpha.dir/src/wa_cpu.cpp.obj"
+},
+{
+  "directory": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw",
+  "command": "D:\\llvm-mingw-20260224-msvcrt-i686\\llvm-mingw-20260224-msvcrt-i686\\bin\\g++.exe  @CMakeFiles/wolfman_alpha.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\wolfman_alpha.dir\\src\\wa_calc.cpp.obj -c \"D:\\New folder (3)\\wolfman_alpha\\wolfman_alpha\\src\\wa_calc.cpp\"",
+  "file": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_calc.cpp",
+  "output": "CMakeFiles/wolfman_alpha.dir/src/wa_calc.cpp.obj"
+},
+{
+  "directory": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw",
+  "command": "D:\\llvm-mingw-20260224-msvcrt-i686\\llvm-mingw-20260224-msvcrt-i686\\bin\\g++.exe  @CMakeFiles/wolfman_alpha.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\wolfman_alpha.dir\\src\\wa_components.cpp.obj -c \"D:\\New folder (3)\\wolfman_alpha\\wolfman_alpha\\src\\wa_components.cpp\"",
+  "file": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_components.cpp",
+  "output": "CMakeFiles/wolfman_alpha.dir/src/wa_components.cpp.obj"
+},
+{
+  "directory": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw",
+  "command": "D:\\llvm-mingw-20260224-msvcrt-i686\\llvm-mingw-20260224-msvcrt-i686\\bin\\g++.exe  @CMakeFiles/wolfman_alpha.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\wolfman_alpha.dir\\src\\wa_gui.cpp.obj -c \"D:\\New folder (3)\\wolfman_alpha\\wolfman_alpha\\src\\wa_gui.cpp\"",
+  "file": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_gui.cpp",
+  "output": "CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj"
+},
+{
+  "directory": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw",
+  "command": "D:\\llvm-mingw-20260224-msvcrt-i686\\llvm-mingw-20260224-msvcrt-i686\\bin\\g++.exe  @CMakeFiles/wa_console.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\wa_console.dir\\apps\\wa_console.cpp.obj -c \"D:\\New folder (3)\\wolfman_alpha\\wolfman_alpha\\apps\\wa_console.cpp\"",
+  "file": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/apps/wa_console.cpp",
+  "output": "CMakeFiles/wa_console.dir/apps/wa_console.cpp.obj"
+},
+{
+  "directory": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw",
+  "command": "D:\\llvm-mingw-20260224-msvcrt-i686\\llvm-mingw-20260224-msvcrt-i686\\bin\\g++.exe  @CMakeFiles/wa_gui_app.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\wa_gui_app.dir\\apps\\wa_gui_app.cpp.obj -c \"D:\\New folder (3)\\wolfman_alpha\\wolfman_alpha\\apps\\wa_gui_app.cpp\"",
+  "file": "D:/New folder (3)/wolfman_alpha/wolfman_alpha/apps/wa_gui_app.cpp",
+  "output": "CMakeFiles/wa_gui_app.dir/apps/wa_gui_app.cpp.obj"
+}
+]
