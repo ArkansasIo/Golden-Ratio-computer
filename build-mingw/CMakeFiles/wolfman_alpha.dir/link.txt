@@ -1,0 +1,2 @@
+D:\llvm-mingw-20260224-msvcrt-i686\llvm-mingw-20260224-msvcrt-i686\bin\llvm-ar.exe qc libwolfman_alpha.a CMakeFiles/wolfman_alpha.dir/src/wa_audio.cpp.obj CMakeFiles/wolfman_alpha.dir/src/wa_io.cpp.obj CMakeFiles/wolfman_alpha.dir/src/wa_cpu.cpp.obj CMakeFiles/wolfman_alpha.dir/src/wa_calc.cpp.obj CMakeFiles/wolfman_alpha.dir/src/wa_components.cpp.obj
+D:\llvm-mingw-20260224-msvcrt-i686\llvm-mingw-20260224-msvcrt-i686\bin\llvm-ranlib.exe libwolfman_alpha.a

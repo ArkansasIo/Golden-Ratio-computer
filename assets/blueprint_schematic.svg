@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <style>
+      .bg { fill: #0d2438; }
+      .panel { fill: #14324c; stroke: #78c8ff; stroke-width: 2; }
+      .title { fill: #d4f1ff; font: 700 34px 'Segoe UI', Arial, sans-serif; }
+      .sub { fill: #9ddfff; font: 600 18px 'Segoe UI', Arial, sans-serif; }
+      .txt { fill: #c6ebff; font: 500 14px 'Consolas', 'Courier New', monospace; }
+      .wire { stroke: #66d1ff; stroke-width: 3; fill: none; }
+      .bus { stroke: #a9f0ff; stroke-width: 6; fill: none; }
+      .tick { stroke: #ffd166; stroke-width: 3; fill: none; stroke-dasharray: 8 6; }
+      .gear { fill: none; stroke: #86dcff; stroke-width: 2; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#66d1ff"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1400" height="900"/>
+  <text class="title" x="40" y="55">WolfmanAlpha Mechanical Computer Blueprint</text>
+  <text class="sub" x="40" y="84">Clock + Gear CPU + Register Bank + RAM Drum + Storage Drum + Bus Matrix</text>
+
+  <rect class="panel" x="60" y="130" width="250" height="180" rx="10"/>
+  <text class="sub" x="85" y="165">Clock / Escapement</text>
+  <text class="txt" x="85" y="195">MechanicalClock</text>
+  <text class="txt" x="85" y="220">24 Hz nominal</text>
+  <text class="txt" x="85" y="245">P0 Fetch | P1 Decode</text>
+  <text class="txt" x="85" y="268">P2 Execute | P3 Writeback</text>
+
+  <circle class="gear" cx="260" cy="275" r="22"/>
+  <circle class="gear" cx="230" cy="275" r="14"/>
+
+  <rect class="panel" x="380" y="130" width="300" height="180" rx="10"/>
+  <text class="sub" x="405" y="165">Control Deck</text>
+  <text class="txt" x="405" y="195">Decode + clutch select</text>
+  <text class="txt" x="405" y="220">Instruction phase gating</text>
+  <text class="txt" x="405" y="245">Branch resolve</text>
+
+  <rect class="panel" x="760" y="130" width="280" height="180" rx="10"/>
+  <text class="sub" x="785" y="165">Gear CPU Core</text>
+  <text class="txt" x="785" y="195">ALU carry train</text>
+  <text class="txt" x="785" y="220">MOVI/MOV/ADD/LOGIC</text>
+  <text class="txt" x="785" y="245">JMP/JZ/HALT</text>
+
+  <rect class="panel" x="1100" y="130" width="240" height="180" rx="10"/>
+  <text class="sub" x="1125" y="165">Register Bank</text>
+  <text class="txt" x="1125" y="195">8 x 64-bit</text>
+  <text class="txt" x="1125" y="220">Gear detent cells</text>
+  <text class="txt" x="1125" y="245">Read/Write clutches</text>
+
+  <rect class="panel" x="360" y="430" width="360" height="210" rx="10"/>
+  <text class="sub" x="385" y="465">Mechanical RAM Drum</text>
+  <text class="txt" x="385" y="495">512 x 64-bit (default)</text>
+  <text class="txt" x="385" y="520">Volatile working memory</text>
+  <text class="txt" x="385" y="545">Single bus port</text>
+  <ellipse class="gear" cx="630" cy="555" rx="70" ry="40"/>
+
+  <rect class="panel" x="820" y="430" width="420" height="210" rx="10"/>
+  <text class="sub" x="845" y="465">Mechanical Storage Drum</text>
+  <text class="txt" x="845" y="495">8192 x 64-bit (default)</text>
+  <text class="txt" x="845" y="520">Persistent program/data</text>
+  <text class="txt" x="845" y="545">Seek head + track index</text>
+  <ellipse class="gear" cx="1130" cy="555" rx="86" ry="46"/>
+
+  <path class="bus" d="M120 360 L1270 360"/>
+  <text class="sub" x="610" y="345">64-bit Mechanical Bus</text>
+
+  <path class="wire" marker-end="url(#arrow)" d="M310 220 L380 220"/>
+  <path class="wire" marker-end="url(#arrow)" d="M680 220 L760 220"/>
+  <path class="wire" marker-end="url(#arrow)" d="M1040 220 L1100 220"/>
+
+  <path class="wire" marker-end="url(#arrow)" d="M900 310 L900 360"/>
+  <path class="wire" marker-end="url(#arrow)" d="M1220 310 L1220 360"/>
+  <path class="wire" marker-end="url(#arrow)" d="M540 430 L540 360"/>
+  <path class="wire" marker-end="url(#arrow)" d="M1030 430 L1030 360"/>
+
+  <path class="tick" marker-end="url(#arrow)" d="M180 310 L180 360"/>
+  <text class="txt" x="72" y="390">Clock tick and phase gating backbone</text>
+
+  <rect class="panel" x="60" y="700" width="1280" height="130" rx="10"/>
+  <text class="sub" x="85" y="735">Instruction Cycle</text>
+  <text class="txt" x="85" y="765">P0 Fetch -> P1 Decode -> P2 Execute -> P3 Writeback -> Tick++</text>
+  <text class="txt" x="85" y="790">Data path: Source (Regs/RAM/Storage) -> Bus -> ALU/Target</text>
+  <text class="txt" x="85" y="815">Timing authority: MechanicalClock and escapement cam train</text>
+</svg>
