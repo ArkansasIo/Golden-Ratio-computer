@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_calc.cpp" "CMakeFiles/wolfman_alpha.dir/src/wa_calc.cpp.obj" "gcc" "CMakeFiles/wolfman_alpha.dir/src/wa_calc.cpp.obj.d"
   "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_components.cpp" "CMakeFiles/wolfman_alpha.dir/src/wa_components.cpp.obj" "gcc" "CMakeFiles/wolfman_alpha.dir/src/wa_components.cpp.obj.d"
   "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_cpu.cpp" "CMakeFiles/wolfman_alpha.dir/src/wa_cpu.cpp.obj" "gcc" "CMakeFiles/wolfman_alpha.dir/src/wa_cpu.cpp.obj.d"
+  "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_gui.cpp" "CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj" "gcc" "CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj.d"
   "D:/New folder (3)/wolfman_alpha/wolfman_alpha/src/wa_io.cpp" "CMakeFiles/wolfman_alpha.dir/src/wa_io.cpp.obj" "gcc" "CMakeFiles/wolfman_alpha.dir/src/wa_io.cpp.obj.d"
   )
 

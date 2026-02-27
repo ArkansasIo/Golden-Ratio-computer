@@ -64,11 +64,13 @@ CMAKE_BINARY_DIR = "D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw"
 # The main recursive "all" target.
 all: CMakeFiles/wolfman_alpha.dir/all
 all: CMakeFiles/wa_console.dir/all
+all: CMakeFiles/wa_gui_app.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/wolfman_alpha.dir/codegen
 codegen: CMakeFiles/wa_console.dir/codegen
+codegen: CMakeFiles/wa_gui_app.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -78,6 +80,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/wolfman_alpha.dir/clean
 clean: CMakeFiles/wa_console.dir/clean
+clean: CMakeFiles/wa_gui_app.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -87,12 +90,12 @@ clean: CMakeFiles/wa_console.dir/clean
 CMakeFiles/wolfman_alpha.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\wolfman_alpha.dir\build.make CMakeFiles/wolfman_alpha.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\wolfman_alpha.dir\build.make CMakeFiles/wolfman_alpha.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" --progress-num=3,4,5,6,7,8 "Built target wolfman_alpha"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" --progress-num=5,6,7,8,9,10,11 "Built target wolfman_alpha"
 .PHONY : CMakeFiles/wolfman_alpha.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wolfman_alpha.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/wolfman_alpha.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" 0
 .PHONY : CMakeFiles/wolfman_alpha.dir/rule
@@ -104,7 +107,7 @@ wolfman_alpha: CMakeFiles/wolfman_alpha.dir/rule
 # codegen rule for target.
 CMakeFiles/wolfman_alpha.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\wolfman_alpha.dir\build.make CMakeFiles/wolfman_alpha.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" --progress-num=3,4,5,6,7,8 "Finished codegen for target wolfman_alpha"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" --progress-num=5,6,7,8,9,10,11 "Finished codegen for target wolfman_alpha"
 .PHONY : CMakeFiles/wolfman_alpha.dir/codegen
 
 # clean rule for target.
@@ -124,7 +127,7 @@ CMakeFiles/wa_console.dir/all: CMakeFiles/wolfman_alpha.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wa_console.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/wa_console.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" 0
 .PHONY : CMakeFiles/wa_console.dir/rule
@@ -143,6 +146,38 @@ CMakeFiles/wa_console.dir/codegen:
 CMakeFiles/wa_console.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_console.dir\build.make CMakeFiles/wa_console.dir/clean
 .PHONY : CMakeFiles/wa_console.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/wa_gui_app.dir
+
+# All Build rule for target.
+CMakeFiles/wa_gui_app.dir/all: CMakeFiles/wolfman_alpha.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_gui_app.dir\build.make CMakeFiles/wa_gui_app.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_gui_app.dir\build.make CMakeFiles/wa_gui_app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" --progress-num=3,4 "Built target wa_gui_app"
+.PHONY : CMakeFiles/wa_gui_app.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/wa_gui_app.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/wa_gui_app.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" 0
+.PHONY : CMakeFiles/wa_gui_app.dir/rule
+
+# Convenience name for target.
+wa_gui_app: CMakeFiles/wa_gui_app.dir/rule
+.PHONY : wa_gui_app
+
+# codegen rule for target.
+CMakeFiles/wa_gui_app.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_gui_app.dir\build.make CMakeFiles/wa_gui_app.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" --progress-num=3,4 "Finished codegen for target wa_gui_app"
+.PHONY : CMakeFiles/wa_gui_app.dir/codegen
+
+# clean rule for target.
+CMakeFiles/wa_gui_app.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_gui_app.dir\build.make CMakeFiles/wa_gui_app.dir/clean
+.PHONY : CMakeFiles/wa_gui_app.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

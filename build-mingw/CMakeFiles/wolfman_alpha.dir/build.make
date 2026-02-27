@@ -146,13 +146,29 @@ CMakeFiles/wolfman_alpha.dir/src/wa_components.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wolfman_alpha.dir/src/wa_components.cpp.s"
 	D:\llvm-mingw-20260224-msvcrt-i686\llvm-mingw-20260224-msvcrt-i686\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\New folder (3)\wolfman_alpha\wolfman_alpha\src\wa_components.cpp" -o CMakeFiles\wolfman_alpha.dir\src\wa_components.cpp.s
 
+CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj: CMakeFiles/wolfman_alpha.dir/flags.make
+CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj: CMakeFiles/wolfman_alpha.dir/includes_CXX.rsp
+CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj: D:/New\ folder\ (3)/wolfman_alpha/wolfman_alpha/src/wa_gui.cpp
+CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj: CMakeFiles/wolfman_alpha.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj"
+	D:\llvm-mingw-20260224-msvcrt-i686\llvm-mingw-20260224-msvcrt-i686\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj -MF CMakeFiles\wolfman_alpha.dir\src\wa_gui.cpp.obj.d -o CMakeFiles\wolfman_alpha.dir\src\wa_gui.cpp.obj -c "D:\New folder (3)\wolfman_alpha\wolfman_alpha\src\wa_gui.cpp"
+
+CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.i"
+	D:\llvm-mingw-20260224-msvcrt-i686\llvm-mingw-20260224-msvcrt-i686\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\New folder (3)\wolfman_alpha\wolfman_alpha\src\wa_gui.cpp" > CMakeFiles\wolfman_alpha.dir\src\wa_gui.cpp.i
+
+CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.s"
+	D:\llvm-mingw-20260224-msvcrt-i686\llvm-mingw-20260224-msvcrt-i686\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\New folder (3)\wolfman_alpha\wolfman_alpha\src\wa_gui.cpp" -o CMakeFiles\wolfman_alpha.dir\src\wa_gui.cpp.s
+
 # Object files for target wolfman_alpha
 wolfman_alpha_OBJECTS = \
 "CMakeFiles/wolfman_alpha.dir/src/wa_audio.cpp.obj" \
 "CMakeFiles/wolfman_alpha.dir/src/wa_io.cpp.obj" \
 "CMakeFiles/wolfman_alpha.dir/src/wa_cpu.cpp.obj" \
 "CMakeFiles/wolfman_alpha.dir/src/wa_calc.cpp.obj" \
-"CMakeFiles/wolfman_alpha.dir/src/wa_components.cpp.obj"
+"CMakeFiles/wolfman_alpha.dir/src/wa_components.cpp.obj" \
+"CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj"
 
 # External object files for target wolfman_alpha
 wolfman_alpha_EXTERNAL_OBJECTS =
@@ -162,9 +178,10 @@ libwolfman_alpha.a: CMakeFiles/wolfman_alpha.dir/src/wa_io.cpp.obj
 libwolfman_alpha.a: CMakeFiles/wolfman_alpha.dir/src/wa_cpu.cpp.obj
 libwolfman_alpha.a: CMakeFiles/wolfman_alpha.dir/src/wa_calc.cpp.obj
 libwolfman_alpha.a: CMakeFiles/wolfman_alpha.dir/src/wa_components.cpp.obj
+libwolfman_alpha.a: CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj
 libwolfman_alpha.a: CMakeFiles/wolfman_alpha.dir/build.make
 libwolfman_alpha.a: CMakeFiles/wolfman_alpha.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libwolfman_alpha.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\New folder (3)\wolfman_alpha\wolfman_alpha\build-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libwolfman_alpha.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\wolfman_alpha.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\wolfman_alpha.dir\link.txt --verbose=$(VERBOSE)
 

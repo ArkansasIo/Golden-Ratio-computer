@@ -13,6 +13,7 @@ Simulates a mechanical "gear computer":
 cmake -S . -B build
 cmake --build build -j
 ./build/wa_console
+./build/wa_gui_app
 ```
 
 ## Console commands
@@ -67,6 +68,20 @@ Core compute helpers for WolfmanAlpha gear systems:
 - `GearStorage`: persistent memory words with mechanical head seek
 - `GearCPUCore`: instruction executor for `MOVI/MOV/LOAD/STORE/ADD/AND/OR/XOR/JMP/JZ/HALT`
 - `MechanicalComputer`: integrated machine wrapper for all components
+
+## GUI API (`wa_gui.hpp`)
+- Backend-agnostic GUI layer with:
+- `GuiApp`: event loop / frame runner
+- `GuiWindow`: window and widget container
+- `Widget`, `ButtonWidget`, `InputWidget`: UI primitives
+- `SwitchWidget`: ON/OFF control switches
+- `GuiBackend`: render/input backend interface
+- `MockBackend`: built-in test backend for headless simulation
+
+GUI mechanical app:
+- Executable: `wa_gui_app`
+- Controls: clock power switch, auto tick switch, tick pulse, CPU step, demo program load
+- Status label shows ticks, run-state, CPU IP/halt state, register/memory values
 
 ## Blueprint schematic
 - Working blueprint document: `docs/BLUEPRINT_SCHEMATIC.md`

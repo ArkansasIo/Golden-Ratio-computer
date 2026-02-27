@@ -57,4 +57,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/wolfman_alpha.dir/DependInfo.cmake"
   "CMakeFiles/wa_console.dir/DependInfo.cmake"
+  "CMakeFiles/wa_gui_app.dir/DependInfo.cmake"
   )

@@ -141,6 +141,19 @@ wa_console/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_console.dir\build.make CMakeFiles/wa_console.dir/build
 .PHONY : wa_console/fast
 
+#=============================================================================
+# Target rules for targets named wa_gui_app
+
+# Build rule for target.
+wa_gui_app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 wa_gui_app
+.PHONY : wa_gui_app
+
+# fast build rule for target.
+wa_gui_app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_gui_app.dir\build.make CMakeFiles/wa_gui_app.dir/build
+.PHONY : wa_gui_app/fast
+
 apps/wa_console.obj: apps/wa_console.cpp.obj
 .PHONY : apps/wa_console.obj
 
@@ -164,6 +177,30 @@ apps/wa_console.s: apps/wa_console.cpp.s
 apps/wa_console.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_console.dir\build.make CMakeFiles/wa_console.dir/apps/wa_console.cpp.s
 .PHONY : apps/wa_console.cpp.s
+
+apps/wa_gui_app.obj: apps/wa_gui_app.cpp.obj
+.PHONY : apps/wa_gui_app.obj
+
+# target to build an object file
+apps/wa_gui_app.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_gui_app.dir\build.make CMakeFiles/wa_gui_app.dir/apps/wa_gui_app.cpp.obj
+.PHONY : apps/wa_gui_app.cpp.obj
+
+apps/wa_gui_app.i: apps/wa_gui_app.cpp.i
+.PHONY : apps/wa_gui_app.i
+
+# target to preprocess a source file
+apps/wa_gui_app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_gui_app.dir\build.make CMakeFiles/wa_gui_app.dir/apps/wa_gui_app.cpp.i
+.PHONY : apps/wa_gui_app.cpp.i
+
+apps/wa_gui_app.s: apps/wa_gui_app.cpp.s
+.PHONY : apps/wa_gui_app.s
+
+# target to generate assembly for a file
+apps/wa_gui_app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wa_gui_app.dir\build.make CMakeFiles/wa_gui_app.dir/apps/wa_gui_app.cpp.s
+.PHONY : apps/wa_gui_app.cpp.s
 
 src/wa_audio.obj: src/wa_audio.cpp.obj
 .PHONY : src/wa_audio.obj
@@ -261,6 +298,30 @@ src/wa_cpu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\wolfman_alpha.dir\build.make CMakeFiles/wolfman_alpha.dir/src/wa_cpu.cpp.s
 .PHONY : src/wa_cpu.cpp.s
 
+src/wa_gui.obj: src/wa_gui.cpp.obj
+.PHONY : src/wa_gui.obj
+
+# target to build an object file
+src/wa_gui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wolfman_alpha.dir\build.make CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.obj
+.PHONY : src/wa_gui.cpp.obj
+
+src/wa_gui.i: src/wa_gui.cpp.i
+.PHONY : src/wa_gui.i
+
+# target to preprocess a source file
+src/wa_gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wolfman_alpha.dir\build.make CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.i
+.PHONY : src/wa_gui.cpp.i
+
+src/wa_gui.s: src/wa_gui.cpp.s
+.PHONY : src/wa_gui.s
+
+# target to generate assembly for a file
+src/wa_gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\wolfman_alpha.dir\build.make CMakeFiles/wolfman_alpha.dir/src/wa_gui.cpp.s
+.PHONY : src/wa_gui.cpp.s
+
 src/wa_io.obj: src/wa_io.cpp.obj
 .PHONY : src/wa_io.obj
 
@@ -294,10 +355,14 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... wa_console
+	@echo ... wa_gui_app
 	@echo ... wolfman_alpha
 	@echo ... apps/wa_console.obj
 	@echo ... apps/wa_console.i
 	@echo ... apps/wa_console.s
+	@echo ... apps/wa_gui_app.obj
+	@echo ... apps/wa_gui_app.i
+	@echo ... apps/wa_gui_app.s
 	@echo ... src/wa_audio.obj
 	@echo ... src/wa_audio.i
 	@echo ... src/wa_audio.s
@@ -310,6 +375,9 @@ help:
 	@echo ... src/wa_cpu.obj
 	@echo ... src/wa_cpu.i
 	@echo ... src/wa_cpu.s
+	@echo ... src/wa_gui.obj
+	@echo ... src/wa_gui.i
+	@echo ... src/wa_gui.s
 	@echo ... src/wa_io.obj
 	@echo ... src/wa_io.i
 	@echo ... src/wa_io.s

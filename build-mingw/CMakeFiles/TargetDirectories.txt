@@ -1,4 +1,5 @@
 D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw/CMakeFiles/wolfman_alpha.dir
 D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw/CMakeFiles/wa_console.dir
+D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw/CMakeFiles/wa_gui_app.dir
 D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw/CMakeFiles/edit_cache.dir
 D:/New folder (3)/wolfman_alpha/wolfman_alpha/build-mingw/CMakeFiles/rebuild_cache.dir

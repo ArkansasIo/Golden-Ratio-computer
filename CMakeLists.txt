@@ -10,9 +10,13 @@ add_library(wolfman_alpha
   src/wa_cpu.cpp
   src/wa_calc.cpp
   src/wa_components.cpp
+  src/wa_gui.cpp
 )
 
 target_include_directories(wolfman_alpha PUBLIC include)
 
 add_executable(wa_console apps/wa_console.cpp)
 target_link_libraries(wa_console PRIVATE wolfman_alpha)
+
+add_executable(wa_gui_app apps/wa_gui_app.cpp)
+target_link_libraries(wa_gui_app PRIVATE wolfman_alpha)
